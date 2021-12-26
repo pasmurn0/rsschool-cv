@@ -25,3 +25,12 @@ function multiply(a, b){
   return x;
 }
 ```
+
+## Courses
+* [HTML for beginners](https://code-basics.com/languages/html)
+* [CSS for beginners](https://code-basics.com/languages/css)
+* [HTML Academy (base of HTML and CSS)](https://htmlacademy.ru/)
+
+## Languages
+* Russian: *native*
+* English: *intermediate*
