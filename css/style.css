@@ -135,3 +135,21 @@ body {
   background-color: rgb(235, 232, 232);
   padding: 0 10px;
 }
+
+.projects-list {
+  list-style-type: circle;
+}
+
+.projects-item {
+ line-height: 30px;
+}
+
+.projects-link {
+  text-decoration: none;
+  color: var(--main-color);
+  transition: text-decoration .5s;
+}
+
+.projects-link:hover {
+  text-decoration: underline;
+}
