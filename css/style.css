@@ -2,6 +2,28 @@
   --main-color: #9DC2B1;
 }
 
+/* @media screen and (max-width: 768x) {
+  .aside {
+    flex: 0 0 auto;
+  }
+
+  .article {
+    flex: 0 0 auto;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .aside {
+    flex: 0 0 40%;
+    width: 35%;
+  }
+
+  .article {
+    flex: 0 0 60%;
+    width: 60%;
+  }
+} */
+
 * {
   box-sizing: border-box;
 }
@@ -46,4 +68,28 @@ body {
 
 .nav-link:hover {
   color: white;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.aside {
+  flex: 1 1 30%;
+}
+
+.article {
+  flex: 3 1 65%;
+}
+
+.section-title {
+  text-transform: uppercase;
+  color: var(--main-color);
+  font-weight: 500;
+}
+
+.profile-title {
+  font-size: 30px;
 }
