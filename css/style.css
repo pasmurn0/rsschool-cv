@@ -33,6 +33,7 @@ body {
 .nav-list {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   list-style: none;
 }
 
@@ -165,6 +166,11 @@ body {
 .courses-link {
   text-decoration: none;
   color: var(--main-color);
+  transition: text-decoration .5s;
+}
+
+.courses-link:hover {
+  text-decoration: underline;
 }
 
 .footer {
@@ -201,4 +207,9 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 20px;
+  transition: box-shadow .5s;
+}
+
+.rss-logo:hover {
+  box-shadow: 5px 5px 10px rgb(111, 119, 112);
 }
