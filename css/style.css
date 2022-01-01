@@ -153,3 +153,16 @@ body {
 .projects-link:hover {
   text-decoration: underline;
 }
+
+.courses-list {
+  list-style-type: circle;
+}
+
+.courses-item {
+  line-height: 30px;
+}
+
+.courses-link {
+  text-decoration: none;
+  color: var(--main-color);
+}
