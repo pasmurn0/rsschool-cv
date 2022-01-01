@@ -122,3 +122,11 @@ body {
   font-size: 17px;
   line-height: 25px;
 }
+
+.skills-list {
+  list-style-type: circle;
+}
+
+.skills-item {
+  line-height: 30px;
+}
