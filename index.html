@@ -4,9 +4,117 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>CV</title>
 </head>
 <body>
-  
+
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+          <li class="nav-item"><a class="nav-link" href="#aboutMe">About me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#code">Code</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#english">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container main-container">
+      <aside class="aside">
+
+          <figure class="section section-profile" id="profile">
+          <img class="profile-photo" src="assets/img/my_photo.jpg" alt="My photo">
+          <figcaption>
+            <h1 class="section-title profile-title">Alexey Zimnyakov</h1>
+            <h3 class="profile-subtitle">Junior Front-End Developer</h3>
+          </figcaption>
+        </figure>
+
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="contacts-list">
+            <li class="contacts-item">Telegram: <a class="contacts-link" href="https://t.me/pasmurn0">pasmurn0</a></li>
+            <li class="contacts-item">Email: <a class="contacts-link" href="mailto:zimnyakov.alex97@gmail.com">zimnyakov.alex97@gmail.com</a></li>
+            <li class="contacts-item">GitHub: <a class="contacts-link" href="https://github.com/pasmurn0">pasmurn0</a></li>
+            <li class="contacts-item">Discord: <a class="contacts-link" href="https://discord.gg/erZaSCZaYe">pasmurn0#4568</a></li>
+          </ul>
+        </section>
+
+      </aside>
+
+      <main class="main">
+
+        <section class="section" id="about-me">
+          <h2 class="section-title">About Me</h2>
+          <p class="about-me-text">I am a 24 y.o. junior Front-End Developer from Saints-Petersburg.</p>
+          <p class="about-me-text">I have a bachelor's degree in chemical engineering from Far Eastern Federal University. However, I was always into computer science, therefore I dropped my job as chemical engineering laboratory employee in order to immerse in Frontend Development learning.</p>
+          <p class="about-me-text">My major goal for now is to put all my efforts in finishing RS School successfully which might be a great help in finding a job position with a lot of prospects.</p>
+        </section>
+
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="skills-list">
+            <li class="skills-item">HTML</li>
+            <li class="skills-item">CSS</li>
+            <li class="skills-item">Git / GitHub</li>
+            <li class="skills-item">Base of JS</li>
+          </ul>
+        </section>
+
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <pre class="pre"><code>
+<!--       -->function multiply(a, b) {
+<!--       -->  x = a * b;
+<!--       -->  return x;
+<!--       -->}
+            </code></pre>
+        </section>
+
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <ul class="projects-list">
+            <li class="projects-item"><a class="projects-link" href="https://pasmurn0.github.io/rsschool-cv/cv">MD CV</a></li>
+            <li class="projects-item">This CV</li>
+          </ul>
+        </section>
+
+        <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <ul class="courses-list">
+            <li class="courses-item">Code Basics - <a class="courses-link" href="https://code-basics.com/languages/html">HTML for beginners</a></li>
+            <li class="courses-item">Code Basics - <a class="courses-link" href="https://code-basics.com/languages/css">CSS for beginners</a></li>
+            <li class="courses-item">HTML Academy - <a class="courses-link" href="https://htmlacademy.ru/"> base of HTML and CSS</a></li>
+            <li class="courses-item">Code Basics - <a class="courses-link" href="https://code-basics.com/languages/javascript">JavaScript for beginners</a></li>
+          </ul>
+        </section>
+
+        <section class="section" id="english">
+          <h2 class="section-title">English</h2>
+          <p class="english">B1 - Pre-Intermediate</p>
+        </section>
+    
+      </main>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-copyright">
+        <a class="footer-link" href="https://github.com/pasmurn0">pasmurn0</a> &copy; 2022
+      </div>
+      <a class="rss-logo" href="https://rs.school/js-stage0/"></a>
+    </div>
+  </footer>
+
 </body>
 </html>
